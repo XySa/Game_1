@@ -3,6 +3,7 @@
 #include <random>
 #include <stdlib.h>
 #include <chrono>
+#include <conio.h>
 
 using namespace std;
 
@@ -302,5 +303,6 @@ int main()
 		cout << "It is Draw, Try Again! :) " << endl;
 
 	deinitGame(g);
+	_getch();
 	return 0;
 }
